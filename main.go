@@ -20,7 +20,7 @@ type Choice struct {
 }
 
 type Question struct {
-	Question      string `json:"question"`
+	Statement     string `json:"question"`
 	CorrectChoice string `json:"correctChoice"`
 	Choices       Choice `json:"choices"`
 }
@@ -61,14 +61,14 @@ func main() {
 
 	for i := 0; i < len(mcqs.Mcqs) && status; i++ {
 		fmt.Println("THIS IS QUESTION #: ", i+1)
-		fmt.Println("Question: " + mcqs.Mcqs[i].Question)
+		fmt.Println("Question: " + mcqs.Mcqs[i].Statement)
 		//fmt.Println("Correct Choice: " + mcqs.Mcqs[i].CorrectChoice)
 		fmt.Println("a) " + mcqs.Mcqs[i].Choices.ChoiceOne)
 		fmt.Println("b) " + mcqs.Mcqs[i].Choices.ChoiceTwo)
 		fmt.Println("c) " + mcqs.Mcqs[i].Choices.ChoiceThree)
 		fmt.Println("d) " + mcqs.Mcqs[i].Choices.ChoiceFour)
 
-		fmt.Println("Enter your Answer: ")
+		fmt.Println("Enter the your option (a/b/c/d): ")
 		fmt.Scanln(&answer)
 
 		if answer != mcqs.Mcqs[i].CorrectChoice {

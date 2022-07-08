@@ -2,7 +2,7 @@
     "mcqs": [
         {
             "question": "Which is the best Football Club in England?",
-            "correctChoice": "ManchesterUnited",
+            "correctChoice": "b",
             "choices": {
                 "a": "Liverpool",
                 "b": "ManchesterUnited",
@@ -12,7 +12,7 @@
         },
         {
             "question": "Which is the best Football Club in Spain?",
-            "correctChoice": "RealMadrid",
+            "correctChoice": "a",
             "choices": {
                 "a": "RealMadrid",
                 "b": "Barcelona",
@@ -22,7 +22,7 @@
         },
         {
             "question": "Which is the best Football Club in Germany?",
-            "correctChoice": "BayernMunich",
+            "correctChoice": "a",
             "choices": {
                 "a": "BayernMunich",
                 "b": "Dortmund",
@@ -32,7 +32,7 @@
         },
         {
             "question": "Which is the best Football Club in France?",
-            "correctChoice": "PSG",
+            "correctChoice": "a",
             "choices": {
                 "a": "PSG",
                 "b": "Lyon",
@@ -42,7 +42,7 @@
         },
         {
             "question": "Which is the best Football Club in Italy?",
-            "correctChoice": "ACMilan",
+            "correctChoice": "b",
             "choices": {
                 "a": "Juventus",
                 "b": "ACMilan",
@@ -52,7 +52,7 @@
         },
         {
             "question": "Which is the best Football Club in Portugal?",
-            "correctChoice": "Sporting",
+            "correctChoice": "b",
             "choices": {
                 "a": "Benfica",
                 "b": "Sporting",
@@ -62,7 +62,7 @@
         },
         {
             "question": "Which is the best Football Club in Netherlands?",
-            "correctChoice": "Ajax",
+            "correctChoice": "a",
             "choices": {
                 "a": "Ajax",
                 "b": "Feyenoord",
@@ -72,7 +72,7 @@
         },
         {
             "question": "Which is the best Football Club in USA?",
-            "correctChoice": "DCUnited",
+            "correctChoice": "a",
             "choices": {
                 "a": "DCUnited",
                 "b": "Seattle",
@@ -82,7 +82,7 @@
         },
         {
             "question": "Which is the best Football Club in Pakistan?",
-            "correctChoice": "Spartans",
+            "correctChoice": "a",
             "choices": {
                 "a": "Spartans",
                 "b": "SAGarden",
@@ -92,7 +92,7 @@
         },
         {
             "question": "Which is the best Football Club in Turkey?",
-            "correctChoice": "Galatasaray",
+            "correctChoice": "a",
             "choices": {
                 "a": "Galatasaray",
                 "b": "Fenerbache",
